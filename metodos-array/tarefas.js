@@ -63,6 +63,12 @@ console.log("Lista com as tarefas combinadas:", tarefas.concat(tarefasAdicionais
 
 //Transformando as Tarefas
 let tarefasTranformadas = tarefas.map(tarefa => "Fazer: " + tarefa);
-console.log("Tarefas transformadas:", tarefasTranformadas);
+console.log(`\nTarefas transformadas:`);
+console.table(tarefasTranformadas);
 
-//
+//Filtrando tarefas
+let tarefasFiltradas = tarefas.filter(tarefa => tarefa.length > 15);
+console.log(`\nTarefas com mais de 15 caracteres:`);
+console.table(tarefasFiltradas);
+
+
