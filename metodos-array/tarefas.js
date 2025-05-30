@@ -76,3 +76,7 @@ let tarefasOrdenadas = tarefas.sort();
 console.log(`\nTarefas ordenadas:`);
 console.table(tarefasOrdenadas);
 
+//Invertendo a ordem das tarefas
+let tarefasInvertidas = tarefas.reverse();
+console.log(`\nTarefas com ordem invertida`);
+console.table(tarefasInvertidas);

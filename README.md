@@ -12,7 +12,7 @@ Usa o método Unshift para adicionar uma nova tarefa no ínicio do array
 ## Etapa 4: Remove a primeira tarefa
 Usa o método Shift para remover a primeira tarefa do array
 
-## Etapa 5: Verifica se uma tarefa existe
+## Etapa 5: Verifica se uma arefa existe
 Usa o método Includes para buscar uma tarefa na lista do array e verificar se ela existe
 
 ## Etapa 6: Transforma a lista em String
@@ -24,14 +24,17 @@ Usa o método Slice para extrair uma parte da lista a partir dos índices 2 a 4
 ## Etapa 8: Altera a lista
 Usa o método Splice para remover a tarefa do índice 3 e substituir por uma nova tarefa
 
-## Etapa 9: Concatena tarefas
+## Etapa 9: Concatena Tarefas
 Usa o método Concat para juntar a nova lista de tarefas criada com a lista original
 
-## Etapa 10: Transforma tarefas
+## Etapa 10: Transforma Tarefas
 Usa o método Map para adicionar a palavra "Fazer" no início de cada tarefa da lista do array
 
 ## Etapa 11: Filtra Tarefas
 Usa o método Filter para filtrar as tarefas com mais de 15 caracteres
 
 ## Etapa 12: Ordena Tarefas
-Usa o método sort para organizar as tarefas do array em ordem alfabética
+Usa o método Sort para organizar as tarefas do array em ordem alfabética
+
+## Etapa 13: Inverte a ordem das Tarefas
+Usa o método Reverse para inverter a ordem das tarefas do array
