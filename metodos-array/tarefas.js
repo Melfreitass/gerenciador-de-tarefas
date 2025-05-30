@@ -33,3 +33,13 @@ let removePrimeiraTarefa = tarefas.shift();
 console.log(`Com a primeira tarefa "${removePrimeiraTarefa}" removida:`);
 console.table(tarefas)
 
+//Verificando se a tarefa existe
+let buscarTarefa = "Ir à academia"
+if (tarefas.includes(buscarTarefa)) {
+    console.log(`\nA tarefa já existe na lista`);
+} else {
+    tarefas.push(buscarTarefa);
+    console.table(tarefas)
+}
+
+

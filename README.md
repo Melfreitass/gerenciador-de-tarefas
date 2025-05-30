@@ -11,3 +11,6 @@ Usa o método Unshift para adicionar uma nova tarefa no ínicio do array
 
 ## Etapa 4: Remove a primeira tarefa
 Usa o método Shift para remover a primeira tarefa do array
+
+## Etapa 5: Verifica se uma tarefa existe
+Usa o método includes para buscar uma tarefa na lista e dizer se ela existe
