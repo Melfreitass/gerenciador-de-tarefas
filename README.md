@@ -33,4 +33,5 @@ Usa o método Map para adicionar a palavra "Fazer" no início de cada tarefa da 
 ## Etapa 11: Filtra Tarefas
 Usa o método Filter para filtrar as tarefas com mais de 15 caracteres
 
-
+## Etapa 12: Ordena Tarefas
+Usa o método sort para organizar as tarefas do array em ordem alfabética
