@@ -1,13 +1,13 @@
 let tarefas = [
-    'Estudar JavaScript', 
-    'Fazer exercícios de matemática', 
-    'Lavar a louça', 
-    'Comprar mercado', 
-    'Ir à academia', 
-    'Ler um livro', 
-    'Fazer revisão para o teste', 
-    'Limpar o quarto', 
-    'Estudar para concurso', 
+    'Estudar JavaScript',  
+    'Fazer exercícios de matemática',  
+    'Lavar a louça',  
+    'Comprar mercado',  
+    'Ir à academia',  
+    'Ler um livro',  
+    'Fazer revisão para o teste',  
+    'Limpar o quarto',  
+    'Estudar para concurso',  
     'Organizar o computador'
 ];
 console.log("Tarefas:");
@@ -43,6 +43,9 @@ if (tarefas.includes(buscarTarefa)) {
 }
 
 //Transformando a lista em string
-console.log(`\nArray tarefas como uma String: ${tarefas.join(", ")}`);
+console.log(`\nArray tarefas como uma String: ${tarefas.join(", ")}\n`);
+
+//Extraindo uma parte da lista
+console.log("Alguns itens das Tarefas (índices 2 a 4):", tarefas.slice(2, 5));
 
 

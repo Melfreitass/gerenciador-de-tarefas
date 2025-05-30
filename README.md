@@ -18,4 +18,7 @@ Usa o método includes para buscar uma tarefa na lista do array e verificar se e
 ## Etapa 6: Transforma a lista em String
 Usa o método join para tranformar a lista tarefas em uma string separada por vírgulas
 
+## Etapa 7: Extrai uma parte da lista
+Usa o méetodo slice para extrair uma parte da lista a partir dos índices
+
 
