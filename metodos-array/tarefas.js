@@ -42,4 +42,7 @@ if (tarefas.includes(buscarTarefa)) {
     console.table(tarefas)
 }
 
+//Transformando a lista em string
+console.log(`\nArray tarefas como uma String: ${tarefas.join(", ")}`);
+
 
