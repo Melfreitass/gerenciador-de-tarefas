@@ -27,3 +27,7 @@ Usa o método Splice para remover a tarefa do índice 3 e substituir por uma nov
 ## Etapa 9: Concatenando tarefas
 Usa o método Concat para juntar a nova lista de tarefas criada com a lista original
 
+## Etapa 10: Transformando tarefas
+Usa o método Map para adicionar a palavra "Fazer" no início de cada tarefa da lista do array
+
+

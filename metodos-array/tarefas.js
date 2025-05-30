@@ -60,3 +60,9 @@ console.table(tarefas);
 //Concatenando tarefas
 let tarefasAdicionais = ["Assistir TV", "Fazer as unhas", "Tomar banho"];
 console.log("Lista com as tarefas combinadas:", tarefas.concat(tarefasAdicionais));
+
+//Transformando as Tarefas
+let tarefasTranformadas = tarefas.map(tarefa => "Fazer: " + tarefa);
+console.log("Tarefas transformadas:", tarefasTranformadas);
+
+//
