@@ -10,6 +10,14 @@ let tarefas = [
     'Estudar para concurso', 
     'Organizar o computador'
 ];
+console.log("Tarefas:");
+console.table(tarefas);
 
-tarefas.push("Jantar", "Dormir")
-console.log(tarefas)
+console.log("Com novas tarefas adicionadas:");
+tarefas.push("Jantar", "Dormir");
+console.table(tarefas);
+
+let removerTarefa = tarefas.pop();
+console.log(`Com a terefa "${removerTarefa}" removida:`);
+console.table(tarefas);
+
