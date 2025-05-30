@@ -21,3 +21,7 @@ let removerTarefa = tarefas.pop();
 console.log(`Com a terefa "${removerTarefa}" removida:`);
 console.table(tarefas);
 
+tarefas.unshift("Acordar");
+console.log("Com uma nova tarefa adicionada no início:");
+console.table(tarefas);
+
