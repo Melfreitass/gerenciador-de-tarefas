@@ -13,12 +13,13 @@ Usa o método Unshift para adicionar uma nova tarefa no ínicio do array
 Usa o método Shift para remover a primeira tarefa do array
 
 ## Etapa 5: Verifica se uma tarefa existe
-Usa o método includes para buscar uma tarefa na lista do array e verificar se ela existe
+Usa o método Includes para buscar uma tarefa na lista do array e verificar se ela existe
 
 ## Etapa 6: Transforma a lista em String
-Usa o método join para tranformar a lista tarefas em uma string separada por vírgulas
+Usa o método Join para tranformar a lista tarefas em uma string separada por vírgulas
 
 ## Etapa 7: Extrai uma parte da lista
-Usa o méetodo slice para extrair uma parte da lista a partir dos índices
+Usa o método Slice para extrair uma parte da lista a partir dos índices 2 a 4
 
-
+## Etapa 8: Alterando a lista
+Usa o método Splice para remover a tarefa do índice 3 e substituir por uma nova tarefa

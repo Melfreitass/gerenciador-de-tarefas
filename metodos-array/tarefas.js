@@ -48,4 +48,11 @@ console.log(`\nArray tarefas como uma String: ${tarefas.join(", ")}\n`);
 //Extraindo uma parte da lista
 console.log("Alguns itens das Tarefas (índices 2 a 4):", tarefas.slice(2, 5));
 
+//Alterando a lista
+let removeTarefa = tarefas.splice(3, 1);
+console.log(`\nCom a tarefa do índice 3 removida:`);
+console.table(tarefas);
 
+let alteraTarefa = tarefas.splice(3, 0, "Fazer compras");
+console.log(`Com a tarefa do índice 3 alterada:`);
+console.table(tarefas);
