@@ -8,3 +8,6 @@ Usa o método Pop para remover a última tarefa do array
 
 ## Etapa 3: Adiciona uma tarefa no início
 Usa o método Unshift para adicionar uma nova tarefa no ínicio do array
+
+## Etapa 4: Remove a primeira tarefa
+Usa o método Shift para remover a primeira tarefa do array
