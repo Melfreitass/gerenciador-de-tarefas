@@ -37,4 +37,4 @@ Usa o método Filter para filtrar as tarefas com mais de 15 caracteres
 Usa o método Sort para organizar as tarefas do array em ordem alfabética
 
 ## Etapa 13: Inverte a ordem das Tarefas
-Usa o método Reverse para inverter a ordem das tarefas do array
+Usa o método Reverse para inverter a ordem das tarefas do array 
