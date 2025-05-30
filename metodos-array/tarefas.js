@@ -56,3 +56,7 @@ console.table(tarefas);
 let alteraTarefa = tarefas.splice(3, 0, "Fazer compras");
 console.log(`Com a tarefa do índice 3 alterada:`);
 console.table(tarefas);
+
+//Concatenando tarefas
+let tarefasAdicionais = ["Assistir TV", "Fazer as unhas", "Tomar banho"];
+console.log("Lista com as tarefas combinadas:", tarefas.concat(tarefasAdicionais));

@@ -23,3 +23,7 @@ Usa o método Slice para extrair uma parte da lista a partir dos índices 2 a 4
 
 ## Etapa 8: Alterando a lista
 Usa o método Splice para remover a tarefa do índice 3 e substituir por uma nova tarefa
+
+## Etapa 9: Concatenando tarefas
+Usa o método Concat para juntar a nova lista de tarefas criada com a lista original
+
